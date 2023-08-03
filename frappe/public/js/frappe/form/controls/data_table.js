@@ -1,12 +1,12 @@
-import Grid from "../grid";
+import Datagrid from "../datagrid";
 
+// TODO: Add missing methods
 frappe.ui.form.ControlDataTable = class ControlDataTable extends frappe.ui.form.Control {
 
 	make() {
 		super.make()
 
-    // TODO: Let it be a grid for now will change for datagrid later
-		this.grid = new Grid({
+		this.grid = new Datagrid({
 			frm: this.frm,
 			df: this.df,
 			parent: this.wrapper,
