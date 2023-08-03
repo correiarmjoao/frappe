@@ -92,7 +92,7 @@ child_table_fields = ("parent", "parentfield", "parenttype")
 
 optional_fields = ("_user_tags", "_comments", "_assign", "_liked_by", "_seen")
 
-table_fields = ("Table", "Table MultiSelect")
+table_fields = ("Data Table", "Table", "Table MultiSelect")
 
 core_doctypes_list = (
 	"DefaultValue",

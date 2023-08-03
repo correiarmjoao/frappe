@@ -15,6 +15,7 @@ $.extend(frappe.model, {
 		"Color",
 		"Currency",
 		"Data",
+		"Data Table",
 		"Date",
 		"Datetime",
 		"Duration",
@@ -49,6 +50,7 @@ $.extend(frappe.model, {
 	no_value_type: [
 		"Section Break",
 		"Column Break",
+		"Data Table",
 		"Tab Break",
 		"HTML",
 		"Table",
@@ -131,7 +133,7 @@ $.extend(frappe.model, {
 
 	std_fields_table: [{ fieldname: "parent", fieldtype: "Data", label: __("Parent") }],
 
-	table_fields: ["Table", "Table MultiSelect"],
+	table_fields: ["Data Table", "Table", "Table MultiSelect"],
 
 	new_names: {},
 	events: {},

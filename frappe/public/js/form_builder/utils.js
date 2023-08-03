@@ -74,7 +74,7 @@ export function create_layout(fields) {
 
 			let field = { df: df };
 
-			if (df.fieldtype === "Table") {
+			if (df.fieldtype === "Table" || df.fieldtype === "Data Table") {
 				field.table_columns = get_table_columns(df);
 			}
 

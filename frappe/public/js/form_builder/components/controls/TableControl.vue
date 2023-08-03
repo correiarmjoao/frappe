@@ -23,7 +23,7 @@ let table_columns = computedAsync(async () => {
 
 		<!-- table grid -->
 		<div
-			v-if="df.fieldtype == 'Table'"
+			v-if="df.fieldtype == 'Table' || df.fieldtype == 'Data Table'"
 			class="table-controls row no-gutters"
 			:style="{ opacity: 1 }"
 		>

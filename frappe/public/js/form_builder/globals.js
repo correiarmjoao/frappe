@@ -25,6 +25,7 @@ export function registerGlobalComponents(app) {
 		.component("ColorControl", DataControl)
 		.component("CurrencyControl", DataControl)
 		.component("DataControl", DataControl)
+		.component("DataTableControl", TableControl)
 		.component("DateControl", DataControl)
 		.component("DatetimeControl", DataControl)
 		.component("DurationControl", DataControl)

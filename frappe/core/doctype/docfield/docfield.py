@@ -40,6 +40,7 @@ class DocField(Document):
 			"Column Break",
 			"Currency",
 			"Data",
+			"Data Table",
 			"Date",
 			"Datetime",
 			"Duration",

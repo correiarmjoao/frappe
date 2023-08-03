@@ -38,11 +38,11 @@ let docfield_df = computed(() => {
 			df.options = "";
 			args.value = {};
 
-			if (in_list(["Table", "Link"], store.form.selected_field.fieldtype)) {
+			if (in_list(["Data Table", "Table", "Link"], store.form.selected_field.fieldtype)) {
 				df.fieldtype = "Link";
 				df.options = "DocType";
 
-				if (store.form.selected_field.fieldtype === "Table") {
+				if (store.form.selected_field.fieldtype === "Table" || store.form.selected_field.fieldtype === "Data Table") {
 					args.value.is_table_field = 1;
 				}
 			}
